@@ -2,6 +2,9 @@ var ground;
 var stand;
 var block1, block2, block3, block4, block5, block6, block7, block8, 
 block9, block10, block11, block12, block13, block14, block15, block16;
+const Engine = Matter.Engine;
+const World= Matter.World;
+const Bodies = Matter.Bodies;
 var Polygon;
 
 function setup() {
